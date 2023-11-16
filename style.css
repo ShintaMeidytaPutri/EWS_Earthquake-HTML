@@ -1,0 +1,81 @@
+.icon-bar {
+    width: 100%; 
+    background-color: #555; 
+    overflow: auto; 
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: white; 
+    font-size: 36px; 
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; 
+  }
+  
+  .active {
+    background-color: #4e73df; 
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  
+  .container {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 100%;
+    background-image: url("LogoEWS.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+   
+   }
+
+   .subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  }
+  
+  .heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  }
+
+  .btn {
+    position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 20px;
+  padding: 20px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: grey;
+  }
